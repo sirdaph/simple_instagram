@@ -11,19 +11,18 @@ header h1{
     margin: 0;
 }
 
-.postt1{
-  float: right;
+.container h2{
+    display: inline-flex;
 }
 
-.postt2 h2{
-   
-    display: flex;
+.postt2{
+ display: flex;
     justify-content: space-between;
-    max-width: 60%;
-    margin-bottom: 0;
-    
-    
-}
+    padding: 10px;
+    margin-top: 10px;
+ }
+
+
 
 .post{
     
@@ -47,9 +46,4 @@ header h1{
 .container{
     width:600px;
     margin: auto;
-    
-   
-}
-.post p{
-    padding: 7px;
-}
+}   
